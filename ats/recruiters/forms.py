@@ -16,8 +16,8 @@ class LoginForm(forms.Form):
     password = forms.CharField(
         widget=forms.PasswordInput(
             attrs={
-                'class': 'form-control',         #pylint: disable=duplicate-code
-                'placeholder': 'Enter Password', #pylint: disable=duplicate-code
+                'class': 'form-control',
+                'placeholder': 'Enter Password',
                 'type': 'password',
             }
         ),
